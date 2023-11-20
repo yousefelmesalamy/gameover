@@ -11,12 +11,12 @@ const routes: Routes = [
     path: '',
     component: LayotBlankComponent,
     children: [
-      {
-        path: '',
-        loadChildren: () =>
-          import('./views/home/home.module').then((m) => m.HomeModule),
-        title: 'Home',
-      },
+      // {
+      //   path: '',
+      //   loadChildren: () =>
+      //     import('./views/home/home.module').then((m) => m.HomeModule),
+      //   title: 'Home',
+      // },
       {
         path: 'games',
         loadChildren: () =>
